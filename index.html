@@ -41,6 +41,75 @@ a:link,a:visited,.widget_bottom h1,.widget_bottom .caption{color:#ffffff}.bg-ria
 	.widget_bottom h2.caption {line-height:22px;margin-top:12px}
 	.widget_bottom .caption,.bioLink-text{font-family:Inter, sans-serif;font-size:16px;font-weight:400}.bioLink-shadow{border:0 solid transparent;background:#212121}
 @media (max-width:768px){.widget_bottom {width:90%}}
+/* =========================
+   FAQ SECTION - Score808
+========================= */
+.faq-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  font-family: 'Inter', sans-serif;
+}
+
+.faq-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #111;
+  text-align: center;
+}
+
+.faq-section h3 {
+  font-size: 1.05rem;
+  margin: 18px 0 6px;
+  color: #1a1a1a;
+  font-weight: 600;
+  position: relative;
+  padding-left: 22px;
+}
+
+.faq-section h3::before {
+  content: "❓";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.faq-section p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+  margin: 0 0 12px 0;
+  padding-left: 22px;
+}
+
+/* Divider antar FAQ */
+.faq-section h3:not(:first-of-type) {
+  border-top: 1px solid #eee;
+  padding-top: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 18px;
+    margin: 28px 12px;
+  }
+
+  .faq-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .faq-section h3 {
+    font-size: 1rem;
+  }
+
+  .faq-section p {
+    font-size: 0.9rem;
+  }
+}
 </style>
 	<script type="application/ld+json">
 {
